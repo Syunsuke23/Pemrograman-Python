@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="555 KOMPUTER &amp; CCTV"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-08 11:36:00 PM"/>
+        <attribute name="created" value="NTU1IEtPTVBVVEVSICYgQ0NUVjtMQVBUT1AtSUtFQTE3MzY7MjAyMi0xMC0wODsxMTozMToxMyBQTTszNDk3"/>
+        <attribute name="edited" value="NTU1IEtPTVBVVEVSICYgQ0NUVjtMQVBUT1AtSUtFQTE3MzY7MjAyMi0xMC0wODsxMTozNjowMCBQTTsyOzM2MDc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="C" type="Real" array="False" size=""/>
+            <declare name="R" type="Real" array="False" size=""/>
+            <input variable="C"/>
+            <assign variable="R" expression="(4/5)*C"/>
+            <output expression="&quot;Maka suhu dalam Reamur : &quot; &amp;R" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
