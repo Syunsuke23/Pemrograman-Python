@@ -1,4 +1,4 @@
-1. Persegi
+#1. Persegi
 
 print("Masukkan Sisi : ")
 sisi = int(input())
@@ -7,7 +7,7 @@ luas = sisi * sisi
 print("Hasil keliling persegi = " + str(keliling))
 print("Hasil Luas Persegi = " + str(luas))
 
-2. Persegi Panjang
+#2. Persegi Panjang
 
 print("Masukkan Panjang : ")
 panjang = int(input())
@@ -18,7 +18,7 @@ luas = panjang * lebar
 print("Keliling Persegi panjang adalah : " + str(keliling))
 print("Luas Persegi Panjang adalah : " + str(luas))
 
-3. Jajar Genjang
+#3. Jajar Genjang
 
 print("Masukkan Nilai a : ")
 a = int(input())
@@ -35,7 +35,7 @@ luas = a * t
 print("Keliling Jajar Genjang : " + str(keliling))
 print("Luas Jajar Genjang : " + str(luas))
 
-4. Segitiga
+#4. Segitiga
 
 print("Masukkan Nilai a : ")
 a = int(input())
@@ -50,7 +50,7 @@ luas = float(1) / 2 * a * t
 print("Keliling Segitiga : " + str(keliling))
 print("Luas Segitiga : " + str(luas))
 
-5. Belah Ketupat
+#5. Belah Ketupat
 
 print("Masukkan Nilai a : ")
 a = int(input())
@@ -69,7 +69,7 @@ luas = float(1) / 2 * d1 * d2
 print("Keliling Belah Ketupat : " + str(keliling))
 print("Luas Belah Ketupat : " + str(luas))
 
-6. Layang - Layang
+#6. Layang - Layang
 
 print("Masukkan Nilai a : ")
 a = int(input())
@@ -88,7 +88,7 @@ luas = float(1) / 2 * d1 * d2
 print("Keliling Layang - Layang : " + str(keliling))
 print("Luas Layang - Layang : " + str(luas))
 
-7. Trapesium
+#7. Trapesium
 
 print("Masukkan Nilai a : ")
 a = int(input())
@@ -105,7 +105,7 @@ luas = float(a + b) / 2 * t
 print("Keliling Trapesium : " + str(keliling))
 print("Luas Trapesium : " + str(luas))
 
-8. Lingkaran
+#8. Lingkaran
 
 phi = 3.14
 print("Masukkan Nilai r : ")
