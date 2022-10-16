@@ -133,7 +133,7 @@ nomor_benar = 3
 batas = 4
 
 while coba < batas:
-    tebak_angka = input("Nasukkan angka (1-6) : ")
+    tebak_angka = input("Masukkan angka (1-6) : ")
     tebak_angka = int(tebak_angka)
 
     if tebak_angka == nomor_benar:
@@ -146,8 +146,8 @@ while coba < batas:
 
 command = ""
 
-while command != "exit":
-    command = input("Masukkan Perintah (+,-,*,/, exit) : ")
+while command != "keluar":
+    command = input("Masukkan Perintah (+,-,*,/, keluar) : ")
 
     if command == "keluar":
         break
